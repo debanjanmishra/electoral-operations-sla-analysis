@@ -16,9 +16,19 @@ Election offices process high volumes of voter applications under strict timelin
 - Built decision-focused dashboards in Power BI to support prioritization
 
 ## Key Insights
-- SLA breaches vary significantly across districts independent of application volume
-- Correction requests exhibit substantially higher SLA breach rates than new registrations
-- Volume vs performance risk matrix identifies high-risk districts requiring immediate intervention
+
+- Identified districts with consistently high SLA breach rates (>35%), indicating systemic processing delays  
+- High-volume districts showed a strong correlation between application load and SLA breaches  
+- Correction requests took significantly longer to process than new applications  
+- Majority of rejections were driven by data quality issues such as missing documents and address mismatches
+
+## Business Recommendations
+
+- Introduce district-level SLA monitoring and escalation thresholds  
+- Reallocate processing capacity to high-volume, high-risk districts  
+- Improve application validation to reduce rework caused by corrections  
+- Implement pre-submission checks to minimize rejection due to data quality issues
+
 
 ## Tools Used
 - Python (Pandas, NumPy)
